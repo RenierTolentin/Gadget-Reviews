@@ -1,0 +1,41 @@
+.style-404{
+    padding: 4% 8%;
+}
+
+.style-404 h1{
+    width: 100%;
+    background: #222020;
+    text-align: center;
+    color: #e9e9e9;
+    padding: 20px 0px 0px;
+}
+
+.child-404{
+    color: #e9e9e9;
+    background: #222020;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-404 p{
+    font-size: 13px;
+    padding: 15px 0px 25px;
+}
+
+.child-404 img{
+    width: 30%;
+}
+
+.child-404 input{
+    display: inline-block;
+    width: 30%;
+    margin: 25px auto 30px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    color: #222020;
+}

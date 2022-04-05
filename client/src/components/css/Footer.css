@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    background: #222020;
+    display: flex;
+    position: relative;
+    padding: 50px 20%;
+}
+
+.footer-first-group{
+    position: relative;
+    padding-right: 60px;
+    border-right: 1px solid white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-first-group p{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+}

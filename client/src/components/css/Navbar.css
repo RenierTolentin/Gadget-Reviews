@@ -1,0 +1,46 @@
+nav{
+    padding: 40px 20%;
+    background: #222020;
+    position: relative;
+}
+
+nav ul{
+    position: relative;
+}
+
+nav li:nth-of-type(1) a{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav li:nth-of-type(2) a{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    padding: 10px 20px;
+    border: 2px solid #FFF; 
+    cursor: pointer;
+}
+
+nav li:nth-of-type(2) a:hover{
+    background: white;
+    transition: 1s;
+}
+
+nav li:nth-of-type(2):hover *{
+    color: #645e5e;
+}
+
+nav a{
+    color: white;
+}
+
+.sign-in-hide{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sign-in-show{
+    visibility: visible;
+    opacity: 1;
+}
